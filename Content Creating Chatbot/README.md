@@ -1,5 +1,5 @@
 # Problem Statement
-Write a chat bot that can create content.
+Write a chatbot that can create content.
 
 ## Input
 Topic/Input field where users can specify the subject or provide keywords.
