@@ -1,0 +1,2 @@
+[console_scripts]
+go1_challenge_play = scripts.rsl_rl.play:main

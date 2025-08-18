@@ -1,0 +1,9 @@
+pyapriltags
+
+[dev]
+pytest
+black
+flake8
+mypy
+pillow
+cairosvg
