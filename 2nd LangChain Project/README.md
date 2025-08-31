@@ -26,7 +26,7 @@ Create a chain that takes the name of an area as input and returns the approxima
   
   .vscode/
   
-  __pycache__/
+  /__pycache__/
   
   *.pyc
 
