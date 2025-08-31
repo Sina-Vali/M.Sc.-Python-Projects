@@ -4,31 +4,19 @@ Create a chain that takes the name of an area as input and returns the approxima
 **How to run locally:**
 - Download/clone this project and replace ... with your OpenAi api key in `OPENAI_API_KEY.txt`.
   
-- For security. create a .dockerignore file with the following code:
-  
-  `# Don’t send secrets or local env files`
-  
-  `OPENAI_API_KEY.txt`
-  
-  `.env`
-  
-  `# Don’t send version control or IDE junk`
-  
-  `.git`
-  
-  `.gitignore`
-  
-  `*.swp`
-  
-  `*.swo`
-  
-  `*.DS_Store`
-  
-  `.vscode/`
-  
-  `__pycache__/`
-  
-  `*.pyc`
+- For security, Create a file named .dockerignore in the project root with the following content:
+  # Don’t send secrets or local env files
+  OPENAI_API_KEY.txt
+  .env
+  # Don’t send version control or IDE junk
+  .git
+  .gitignore
+  *.swp
+  *.swo
+  *.DS_Store
+  .vscode/
+  __pycache__/
+  *.pyc
 
 - Open your terminal and run the following:
   `docker build -t langchain-project:latest`
