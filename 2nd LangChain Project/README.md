@@ -6,13 +6,19 @@ Create a chain that takes the name of an area as input and returns the approxima
   
 - For security. create a .dockerignore file with the following code:
   `# Don’t send secrets or local env files`
+  
   `OPENAI_API_KEY.txt`
+  
   `.env`
   
   `# Don’t send version control or IDE junk`
+  
   `.git`
+  
   `.gitignore`
+  
   `*.swp`
+  
   `*.swo`
   `*.DS_Store`
   `.vscode/`
