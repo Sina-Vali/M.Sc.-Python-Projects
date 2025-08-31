@@ -5,6 +5,7 @@ Create a chain that takes the name of an area as input and returns the approxima
 - Download/clone this project and replace ... with your OpenAi api key in `OPENAI_API_KEY.txt`.
   
 - For security. create a .dockerignore file with the following code:
+  
   `# Don’t send secrets or local env files`
   
   `OPENAI_API_KEY.txt`
