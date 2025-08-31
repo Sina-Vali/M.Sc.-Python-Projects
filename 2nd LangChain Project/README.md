@@ -20,9 +20,13 @@ Create a chain that takes the name of an area as input and returns the approxima
   `*.swp`
   
   `*.swo`
+  
   `*.DS_Store`
+  
   `.vscode/`
+  
   `__pycache__/`
+  
   `*.pyc`
 
 - Open your terminal and run the following:
