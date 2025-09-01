@@ -32,6 +32,7 @@ Create a chain that takes the name of an area as input and returns the approxima
   
 
 - Open your terminal and run the following:
+  
   `docker build -t langchain-project:latest`
   `docker run -it --rm   -v "$(pwd)/OPENAI_API_KEY.txt:/app/OPENAI_API_KEY.txt:ro"   2nd-langchain-project:latest`
   
