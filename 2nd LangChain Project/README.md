@@ -5,8 +5,8 @@ Create a chain that takes the name of an area as input and returns the approxima
 - Download/clone this project and replace ... with your OpenAi api key in `OPENAI_API_KEY.txt`.
   
 - For security, Create a file named .dockerignore in the project root with the following content:
-- 
-  # Don’t send secrets or local env files
+  
+  ```# Don’t send secrets or local env files
   
   OPENAI_API_KEY.txt
   
@@ -25,8 +25,8 @@ Create a chain that takes the name of an area as input and returns the approxima
   *.DS_Store
   
   .vscode/
-  
- `__pycache__/ `
+  ```
+ __pycache__/ 
   
   *.pyc
 
